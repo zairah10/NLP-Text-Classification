@@ -25,13 +25,18 @@ Tensorflow's VocabularyProcessor object has been used to convert narratives into
 
 Example:
 
-x_text = 'This is a cat','This must be boy', 'This is a a dog'
+x_text = 'This is a cat','This must be boy', 'This is a a dog'.
+
 max_document_length, will be the total number of unique words.
-vocab = unique words
+
+vocab = unique words.
+
 vocab:
+
 ‘This’, ‘is’, ‘a’, ‘cat’, ‘must’, ‘be’, ‘boy’, ‘dog’
 
 Transformed sentences will then be saved as vectors based on the vocab:
+
 (1 2 3 4 0)
 (1 5 6 7 0)
 (1 2 3 3 8)
