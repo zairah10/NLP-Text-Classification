@@ -14,3 +14,7 @@ Example
 | --- | --- |
 | Bank account | I used my Paypal account to buy an item from XXXX. The product did not show up until 6 weeks later and was faulty. I went to Paypal seeking a refund from the Vendor and was denied because it was over thirty days in billing. I 'm out of {$12.00} and most likely so are thousands of other people. |
 | Mortgage | I submmited a fully document Request for a Loan Modification with mortgage company M & T Mortgage XXXX Investor XXXX XXXX XXXX to reduce my mortgage payment ; instead to consider my case for a HAMP review, they approved me for a Streamline Loan Mod that reduced my mortgage payment to 43 % of my monthly gross income ( {$2200.00} ). Also they decided to charge me {$980.00} modification fees. |
+
+## Goal:
+The goal is to predict the product type from the consumer_narrative. There are total of 11 product categories and 66,806 observations. 
+
