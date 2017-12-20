@@ -21,7 +21,7 @@ The goal is to predict the product type from the consumer_narrative. There are t
 ### Data Cleaning:
 Some of the standard text cleaning techniques have been used, like converting the text to lower case, tokenization, vocabulary creation, etc.
 
-Tensorflow's VocabularyProcessor object has been used to convert narratives into vecors. 
+Tensorflow's VocabularyProcessor object has been used to convert narratives into vectors. 
 
 Example:
 
@@ -44,6 +44,6 @@ Transformed sentences will then be saved as vectors based on the vocab:
 ### Model:
 The idea is to build a CNN model to predict the product category. The **TensorFlow** layers modules has been used to construct the neural network. 
 
-The first layers embeds words into low-dimensional vectors. The next layer performs convolutions over the embedded word vectors using multiple filter sizes, i.e., sliding windows over 3, 4 & 5 words at a time. Then, max-pooling the result of the convolutional layer into a long feature vector, add dropout regularization, and classify the result using a softmax layer.
+The first layer embeds words into low-dimensional vectors. The next layer performs convolutions over the embedded word vectors using multiple filter sizes, i.e., sliding windows over 3, 4 & 5 words at a time. Then, max-pooling the result of the convolutional layer into a long feature vector, add dropout regularization, and classify the result using a softmax layer.
 
 
